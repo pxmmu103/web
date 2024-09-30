@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POLALI SHREE RAJARAJESHWARI TEMPLE</title>
+    <style>
+        body {
+            background-color: #caf0f8;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth; /* Smooth scrolling */
+        }
+
+        .container {
+            width: 90%;
+            margin: auto;
+            overflow: hidden;
+            text-decoration: none;
+        }
+
+        header {
+            background: #0c0c0c;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #333 3px solid;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav a:hover {
+            color: #0f0e0e;
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: #9e2a2b;
+        }
+
+        h1 {
+            animation: colorChange 5s infinite;
+        }
+
+        @keyframes colorChange {
+            0% { color: #9e2a2b; }
+            50% { color: #ff6f61; }
+            100% { color: #9e2a2b; }
+        }
+
+        .section {
+            padding: 20px;
+            margin: 20px 0;
+            background: #0b0a0a;
+            box-shadow: 0 0 10px rgba(239, 235, 235, 0.926);
+            opacity: 0;
+            transform: translateY(50px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+        .p{
+            color: #caf0f8;
+        }
+
+        .section.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .img-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .img-container img {
+            max-width: 100%;
+            height: auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+
+        .img-container img:hover {
+            transform: scale(1.05);
+        }
+
+        iframe {
+            width: 100%;
+            height: 450px;
+            border: 0;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #caf0f8;
+        }
+
+        .form-group input {
+            margin: 5px 0;
+            padding: 10px;
+            width: 80%;
+            max-width: 400px;
+        }
+
+        .form-group input[type="submit"] {
+            background: #9e2a2b;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .form-group input[type="submit"]:hover {
+            background: #ff6f61;
+        }
+
+        @media (max-width: 768px) {
+            .img-container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            iframe {
+                height: 300px;
+            }
+        }
+
+        /* Navigation active section highlight */
+        .nav-active {
+            border-bottom: 2px solid #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>POLALI SHREE RAJARAJESHWARI TEMPLE, DAKSHINA KANNADA</h1>
+        </div>
+    </header>
+    <div class="container">
+        <nav>
+            <a href="#Home" class="nav-link">Introduction</a>
+            <a href="#About" class="nav-link">About Temple</a>
+            <a href="#place" class="nav-link">Location</a>
+            <a href="#contactUs" class="nav-link">Contact</a>
+        </nav>
+
+        <div id="Home" class="section">
+            <h2>POLALI RAJARAJESHWARI TEMPLE</h2>
+            <div class="img-container">
+                <img src="download.jpeg" alt="Temple">
+                <img src="images.jpeg" alt="Temple">
+                <img src="925769339s.jpg" alt="Shiva">
+            </div>
+        </div>
+
+        <div id="About" class="section">
+            <h2>About Temple</h2>
+            <p class="p">Polali Rajarajeshwari Temple is a temple located in Polali, Dakshina Kannada district in Karnataka. The primary deity of the temple is Shri Rajarajeshwari. The temple was constructed in the 8th century AD by King Suratha and has been developed by many dynasties which ruled over the region. The idol of Sri Rajarajeshwari, another name/form of the divine Goddess Sri Lalita Tripurasundari, is completely moulded from clay with special medicinal properties. The temple portrays Hindu architecture with roofs adorned with wooden carvings of gods and copper plates. Daily and special poojas are conducted in the temple under the auspices of the head priests K Rama Bhat, Madhava Bhat, Parameshwara Bhat and Narayan Bhat .Annual festivals are held in the temple with much fanfare. Polali Chendu festival is an important festive event where football is played to represent the fight of good over evil. The Chendu festival is followed by the annual festival in March, which lasts for a month and is attended by people from all over the world.</p>
+            <p class="p">The temple has been referred to in many ancient inscriptions, including the Markandeya Purana, Ashoka inscriptions and travel accounts of ancient travellers.[2] According to an inscription discovered in the vicinity of the temple, the temple around the clay idol was built in 8th century AD.[5] It is a widely held belief that the temple was built by King Suratha, and that the king offered his own crown, studded with precious jewels,[6] to be placed on the head of the deity. The king, having lost most of his kingdom in a war and being betrayed by his own ministers, is believed to have taken refuge under a sage named Sumedha in forests located around what is the location of the temple now. The clay idol of the main deity in the temple is historically believed to be up to 5000 years old. The king is reported to have carved the clay idol of Shri Rajarajeshwari himself and offered penance to the deity in return for his kingdom. Many ancient inscriptions alluding to the temple were reported around the temple,[5] but were lost over time primarily due to the neglect of their keepers. The remaining inscriptions, which are available today were obtained in kariyangala village, Ammunje and in the temple itself and is now under custody of the Karnataka Government.[2].</p>
+        </div>
+
+        <div id="place" class="section">
+            <h2>Location of Temple</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.590886317455!2d74.95279167484065!3d12.933995587377936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba357e8a5855a0d%3A0xd7126677a5e7f683!2sShri%20Kshetra%20Raajarajeshwari%20Temple%20(Polali)!5e0!3m2!1sen!2sin!4v1727676192821!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div id="contactUs" class="section">
+            <h2>Contact Information</h2>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Enter Name">
+                <label for="phno">Phone Number:</label>
+                <input type="text" id="phno" placeholder="Enter Phone Number">
+                <label for="place">Place:</label>
+                <input type="text" id="place" placeholder="Enter Place">
+                <input type="submit" value="Submit">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Scroll animation
+        const sections = document.querySelectorAll('.section');
+        const options = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver(function(entries, observer) {
+            entries.forEach(entry => {
+                if (!entry.isIntersecting) {
+                    return;
+                }
+                entry.target.classList.add('show');
+                observer.unobserve(entry.target);
+            });
+        }, options);
+
+        sections.forEach(section => {
+            observer.observe(section);
+        });
+
+        // Highlight active nav link
+        const navLinks = document.querySelectorAll('.nav-link');
+        const sectionsMap = {};
+        sections.forEach(section => {
+            sectionsMap[section.id] = section.offsetTop;
+        });
+
+        window.addEventListener('scroll', () => {
+            let scrollPosition = document.documentElement.scrollTop || document.body.scrollTop;
+            for (let id in sectionsMap) {
+                if (sectionsMap[id] <= scrollPosition + 100) {
+                    document.querySelector('.nav-active')?.classList.remove('nav-active');
+                    document.querySelector(`a[href*=${id}]`).classList.add('nav-active');
+                }
+            }
+        });
+    </script>
+</body>
+</html>
+
